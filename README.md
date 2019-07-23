@@ -9,9 +9,11 @@ a tool to test website request average time by using curl commands
 
 python3 required
 
-usage: curl_time.py [-h] -u URL [-c CONCURRENT] [-t TOTAL]
+- usage: 
 
-optional arguments:
+  python3 curl_time.py [-h] -u URL [-c CONCURRENT] [-t TOTAL]
+
+- optional arguments:
 
   -h, --help            show this help message and exit
 
@@ -21,10 +23,10 @@ optional arguments:
   
   -t TOTAL, --total     TOTAL total count of curl commands
                         
-outputs:
+- outputs:
 
-average connect time: 0.39944288999999983
+  average connect time: 0.39944288999999983
 
-average start_transfer time: 2.0520808500000007
+  average start_transfer time: 2.0520808500000007
 
-average total time: 2.0522001700000003
+  average total time: 2.0522001700000003
